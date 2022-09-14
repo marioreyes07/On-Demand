@@ -1,0 +1,17 @@
+.boton.trece::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #5ed1f1;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+
+
+}
+
+.boton.trece:hover::after {
+    top: 0;
+}
